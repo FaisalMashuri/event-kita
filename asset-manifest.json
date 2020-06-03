@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/event-kita/static/css/main.2de5607b.chunk.css",
+    "main.js": "/event-kita/static/js/main.a079c71a.chunk.js",
+    "main.js.map": "/event-kita/static/js/main.a079c71a.chunk.js.map",
+    "runtime-main.js": "/event-kita/static/js/runtime-main.c4800357.js",
+    "runtime-main.js.map": "/event-kita/static/js/runtime-main.c4800357.js.map",
+    "static/js/2.58b4df4b.chunk.js": "/event-kita/static/js/2.58b4df4b.chunk.js",
+    "static/js/2.58b4df4b.chunk.js.map": "/event-kita/static/js/2.58b4df4b.chunk.js.map",
+    "index.html": "/event-kita/index.html",
+    "precache-manifest.e1d4a3a36a3a099b5aa5aa0fa90d697f.js": "/event-kita/precache-manifest.e1d4a3a36a3a099b5aa5aa0fa90d697f.js",
+    "service-worker.js": "/event-kita/service-worker.js",
+    "static/css/main.2de5607b.chunk.css.map": "/event-kita/static/css/main.2de5607b.chunk.css.map",
+    "static/js/2.58b4df4b.chunk.js.LICENSE.txt": "/event-kita/static/js/2.58b4df4b.chunk.js.LICENSE.txt",
+    "static/media/event.png": "/event-kita/static/media/event.694afcd7.png",
+    "static/media/kanan-atas.png": "/event-kita/static/media/kanan-atas.3fd06dc2.png",
+    "static/media/kiri-bawah.png": "/event-kita/static/media/kiri-bawah.5361231b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4800357.js",
+    "static/js/2.58b4df4b.chunk.js",
+    "static/css/main.2de5607b.chunk.css",
+    "static/js/main.a079c71a.chunk.js"
+  ]
+}
