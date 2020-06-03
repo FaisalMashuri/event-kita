@@ -1,0 +1,46 @@
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  background: #ac183b;
+  width: 200px;
+  height: calc(100% - 80px);
+  border-bottom-left-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 1px;
+  color: rgb(216, 159, 172);
+  white-space: nowrap;
+}
+
+.sidebar ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: rgb(194, 95, 118);
+  display: none;
+}
+
+.sidebar ul li a span.icon {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.sidebar ul li a span.title {
+  display: inline-block;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  background: rgb(243, 91, 126);
+  color: #fff;
+}

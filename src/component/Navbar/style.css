@@ -1,0 +1,66 @@
+.top_navbar {
+  width: calc(100% - 20px);
+  height: 60px;
+  display: flex;
+  position: fixed;
+  top: 0px;
+}
+
+.top_navbar .hamburger {
+  width: 70px;
+  height: 100%;
+  background: #ac183b;
+  padding: 15px 17px;
+  border-top-left-radius: 15px;
+  cursor: pointer;
+}
+
+.top_navbar .hamburger div {
+  width: 35px;
+  height: 4px;
+  background: rgb(219, 121, 144);
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.top_navbar .top_menu {
+  width: calc(100% - 70px);
+  height: 100%;
+  background: #fff;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.top_navbar .top_menu .logo img {
+  margin-top: 5px;
+  width: 200px;
+}
+
+.top_navbar .top_menu ul {
+  display: flex;
+}
+
+.top_navbar .top_menu ul li a {
+  display: block;
+  margin: 0 10px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50%;
+  color: grey;
+}
+
+.top_navbar .top_menu ul li a:hover {
+  background: rgb(243, 91, 126);
+  color: #fff;
+}
+
+.top_navbar .top_menu ul li a:hover i {
+  color: #fff;
+}
